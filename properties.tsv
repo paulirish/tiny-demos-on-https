@@ -1,0 +1,368 @@
+property	authored	computed
+align-items	center	start
+align-items	center	stretch
+animation-duration	0.2s	0s
+animation-name	gb__a	none
+background-image	url(/rsrc.php/v2/yB/r/Lg3OgVzw-DK.png)	none
+background-image	url(/rsrc.php/v2/yT/r/GoSczxvXCmt.png)	url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yT/r/GoSczxvXCmt.png)
+background-image	url(/sitewide/images/sprites/search-anim-full.png)	url(http://www.cc.com/sitewide/images/sprites/search-anim-full.png)
+background-image	url(svgs/RM_CoOrdinates_Rex.svg)	url(http://gcg-rexandmariano-dev.azurewebsites.net/Css/svgs/RM_CoOrdinates_Rex.svg)
+background-image	-webkit-image-set(url(//ssl.gstatic.com/s2/oz/images/sprites/ribbon-nav-1x-7ef7896d305353d00070615915dbe725.png) 1x,url(//ssl.gstatic.com/s2/oz/images/sprites/ribbon-nav-2x-681ca7b0944d091886e7f2c34af8dce0.png) 2x)	-webkit-image-set(url(https://ssl.gstatic.com/s2/oz/images/sprites/ribbon-nav-1x-7ef7896d305353d00070615915dbe725.png) 1x, url(https://ssl.gstatic.com/s2/oz/images/sprites/ribbon-nav-2x-681ca7b0944d091886e7f2c34af8dce0.png) 2x)
+background-image	-webkit-linear-gradient(top,#4d90fe,#4787ed)	-webkit-linear-gradient(top, rgb(77, 144, 254), rgb(71, 135, 237))
+background-position	0 -2px	0px -2px
+background-position	0 -503px	0px -503px
+background-position	-242px -62px	0% 0%
+background-repeat	no-repeat	repeat
+border-bottom-left-radius	2px	0px
+border-bottom-left-radius	3px	0px
+border-bottom-right-radius	2px	0px
+border-bottom-right-radius	3px	0px
+border-bottom-style	solid	none
+border-bottom-width	1px	0px
+border-left-style	solid	none
+border-left-width	1px	0px
+border-right-style	solid	none
+border-right-width	1px	0px
+border-top-left-radius	2px	0px
+border-top-left-radius	3px	0px
+border-top-right-radius	2px	0px
+border-top-right-radius	3px	0px
+border-top-style	solid	none
+border-top-width	1px	0px
+bottom	0	0px
+bottom	100%	1092px
+bottom	-85px	auto
+box-shadow	0 1px 0 rgba(0,0,0,.05)	none
+box-shadow	0 2px 10px rgba(0,0,0,.2)	none
+box-shadow	0 2px 10px rgba(0,0,0,.2)	rgba(0, 0, 0, 0.2) 0px 2px 10px 0px
+box-shadow	0 2px 4px rgba(0,0,0,0.2)	none
+box-shadow	inset 0 2px 4px 0 rgba(0,0,0,.04)	none
+box-sizing	border-box	content-box
+display	block !important	block
+display	inline-block	block
+display	inline-block	inline
+display	list-item	block
+display	list-item	inline
+display	none !important	none
+display	none!important	none
+display	table	inline
+filter		none
+float	left	none
+float	right	none
+font-family	arial,sans-serif	arial, sans-serif
+font-family	'BrandonGrotesque-Black', Helvetica, Arial, sans-serif	BrandonGrotesque-Black, Helvetica, Arial, sans-serif
+font-family	'BrandonTextBold', Helvetica, Arial, sans-serif	BrandonTextBold, Helvetica, Arial, sans-serif
+font-family	"Helvetica Neue", Helvetica, Arial, sans-serif	'Helvetica Neue', Helvetica, Arial, sans-serif
+font-family	inherit	'Baskerville Old Face', mariano_baskerville
+font-family	'lucida grande',tahoma,verdana,arial,sans-serif	'lucida grande', tahoma, verdana, arial, sans-serif
+font-family	"lucida grande", tahoma, verdana, arial, sans-serif	'lucida grande', tahoma, verdana, arial, sans-serif
+font-family	Roboto,arial,sans-serif	Roboto, arial, sans-serif
+font-family	'SM4'	SM4
+font-size	0	0px
+font-size	100%	0px
+font-size	15pt	20px
+font-size	1em	16px
+font-size	.76923077em	10px
+font-size	80%	12.8000001907349px
+font-size	.875em	14px
+font-weight	400	normal
+font-weight	bold!important	bold
+height	0	0px
+height	0	48px
+height	100%	0px
+height	100%	1053px
+height	100%	1077px
+height	100%	1092px
+height	100%	14px
+height	100%	154px
+height	100%	16px
+height	100%	20px
+height	100%	240px
+height	100%	29px
+height	100%	30px
+height	100%	340px
+height	100%	40px
+height	100%	41px
+height	100%	44px
+height	100%	6078px
+height	100%	80px
+height	100%	auto
+height	14px	auto
+height	1px	4px
+height	26px	auto
+height	28px	18px
+height	60px	30px
+height	60px	auto
+height	auto	133px
+height	auto	150px
+height	auto	152px
+height	auto	165px
+height	auto	197.3125px
+height	auto	197px
+height	auto	234.5625px
+height	auto	237.3125px
+height	auto	240.328125px
+height	auto	240px
+height	auto	257px
+height	auto	27px
+height	auto	290px
+height	auto	299px
+height	auto	3174.25px
+height	auto	32px
+height	auto	3326.25px
+height	auto	40px
+height	auto	4226.25px
+height	auto	44px
+height	auto	4515.25px
+height	auto	4585.25px
+height	auto	60px
+height	auto	744.625px
+justify-content	flex-end	flex-start
+justify-content	flex-end	start
+left	0	0px
+left	0	auto
+left	-1px	auto
+left	30%	auto
+letter-spacing	0.24em	4.80000019073486px
+letter-spacing	0.2em	3.20000004768372px
+line-height	100%	13px
+line-height	1	11px
+line-height	1.1	22px
+line-height	1.28	14.0799999237061px
+line-height	1.34	14.7399997711182px
+line-height	1.34	16.0799999237061px
+line-height	1.34	18.7600002288818px
+line-height	1.375	13.75px
+line-height	1.375	17.875px
+line-height	1.375	22px
+line-height	1.4	15.3999996185303px
+line-height	1.4	16.7999992370605px
+line-height	1.4	18.2000007629395px
+line-height	1.42857	19.999979019165px
+line-height	1em	14px
+margin-bottom	0	0px
+margin-bottom	0em	0px
+margin-bottom	0px	16px
+margin-bottom	11px	0px
+margin-bottom	15%	0px
+margin-bottom	20px	0px
+margin-bottom	5px	0px
+margin-bottom	8px	0px
+margin-bottom	auto	0px
+margin-left	0	0px
+margin-left	0em	0px
+margin-left	0!important	0px
+margin-left	0px	2px
+margin-left	17px	0px
+margin-left	20px	0px
+margin-left	2px	0px
+margin-left	-400px	0px
+margin-left	5px	0px
+margin-left	8px	0px
+margin-left	auto	0px
+margin-right	0	0px
+margin-right	0em	0px
+margin-right	0 !important	0px
+margin-right	0!important	0px
+margin-right	16px	0px
+margin-right	2px	0px
+margin-right	4px	0px
+margin-right	5px	0px
+margin-right	60px	0px
+margin-right	60px	2px
+margin-right	auto	0px
+margin-top	0	0px
+margin-top	0em	0px
+margin-top	0px	16px
+margin-top	10px	0px
+margin-top	11px	0px
+margin-top	15%	0px
+margin-top	15px	0px
+margin-top	5px	0px
+margin-top	8px	0px
+margin-top	auto	0px
+max-height	310px	none
+max-width	47.938em	767.007995605469px
+max-width	50vw	none
+max-width	63.938em	1023.00799560547px
+max-width	none !important	none
+min-height	0	0px
+min-height	100px	0px
+min-height	13px	0px
+min-height	40px	0px
+min-width	0	0px
+min-width	1177px	0px
+min-width	315px	0px
+min-width	54px	0px
+min-width	-webkit-min-content	min-content
+opacity	.15	0.150000005960464
+opacity	.55	0.550000011920929
+opacity	.7	0.699999988079071
+overflow-x	hidden	visible
+overflow-y	auto	visible
+overflow-y	hidden!important	hidden
+overflow-y	hidden	visible
+overflow-y	scroll	visible
+padding-bottom	15px	0px
+padding-bottom	20px	0px
+padding-bottom	23px	0px
+padding-bottom	28px	0px
+padding-bottom	2px	0px
+padding-bottom	3px	0px
+padding-bottom	6px	0px
+padding-bottom	7px	0px
+padding-left	0	0px
+padding-left	10px	0px
+padding-left	20px	0px
+padding-left	28px	0px
+padding-left	2px	0px
+padding-left	30px	0px
+padding-left	3px	0px
+padding-left	400px	0px
+padding-left	5px	0px
+padding-left	6px	0px
+padding-left	7px	0px
+padding-left	8px	0px
+padding-right	0	0px
+padding-right	10px	0px
+padding-right	16px	0px
+padding-right	20px	0px
+padding-right	21px	0px
+padding-right	27px	0px
+padding-right	30px	0px
+padding-right	3px	0px
+padding-right	6px	0px
+padding-right	8em	0px
+padding-right	8px	0px
+padding-top	0	0px
+padding-top	0.3em	0px
+padding-top	0 !important	0px
+padding-top	10px	0px
+padding-top	20px	0px
+padding-top	28px	0px
+padding-top	2px	0px
+padding-top	3px	0px
+padding-top	6px	0px
+padding-top	7px	0px
+position	absolute	static
+position	fixed	relative
+position	relative !important	static
+position	relative	static
+right	0	0px
+right	0	auto
+table-layout	fixed	auto
+text-align	-webkit-match-parent	center
+text-align	-webkit-match-parent	left
+text-decoration-line	underline	none
+text-decoration	none	none solid rgb(0, 0, 0)
+text-decoration	none	none solid rgb(115, 115, 115)
+text-decoration	none	none solid rgb(145, 151, 163)
+text-decoration	none	none solid rgb(255, 255, 255)
+text-decoration	none	none solid rgb(34, 34, 34)
+text-decoration	none	none solid rgb(35, 41, 55)
+text-decoration	none	none solid rgb(38, 38, 38)
+text-decoration	none	none solid rgb(51, 102, 204)
+text-decoration	none	none solid rgb(59, 89, 152)
+text-decoration	none	none solid rgb(60, 185, 213)
+text-decoration	none	none solid rgb(64, 64, 64)
+text-decoration	none	none solid rgb(72, 80, 82)
+text-decoration	none	none solid rgb(78, 86, 101)
+text-decoration	none	underline solid rgb(59, 89, 152)
+text-decoration	underline	underline solid rgb(255, 255, 255)
+text-indent	0	0px
+text-overflow	ellipsis	clip
+top	0	0px
+top	0	auto
+top	0px	auto
+top	30%	auto
+top	44px	auto
+top	50%	468px
+top	50px	auto
+transform	translate3d(0,-5px,0)	matrix(1, 0, 0, 1, 0, -5)
+transition-delay	initial, initial	0s, 0s
+transition-delay	initial, initial, initial	0s
+transition-duration	0.218s, 0.218s, 0.218s	0s
+transition-duration	0.218s	0s
+transition-duration	0.5s	0s
+transition-duration	0.7s	0s
+transition-duration	400ms	0s
+transition-property	background	all
+transition-property	height	all
+transition-property	opacity	all
+transition-timing-function	cubic-bezier(0.17, 0.04, 0.03, 0.94)	ease
+transition-timing-function	cubic-bezier(0.17, 0.67, 0.44, 1.1)	ease
+transition-timing-function	initial, initial	ease, ease
+transition-timing-function	initial, initial, initial	ease
+unicode-bidi	embed	normal
+vertical-align	middle	baseline
+vertical-align	top	baseline
+-webkit-animation-duration	0.2s	0s
+-webkit-animation-name	gb__a	none
+-webkit-appearance	push-button	none
+-webkit-background-clip	padding-box	border-box
+-webkit-border-horizontal-spacing	2px	0px
+-webkit-border-vertical-spacing	2px	0px
+-webkit-box-shadow		none
+-webkit-box-shadow		rgba(0, 0, 0, 0.2) 0px 2px 10px 0px
+-webkit-clip-path	polygon(175.800003051758px 129px, 0px -111.200243775551px, 0px 129px)	polygon(175.800003051758px 129px, 0px -111.200241088867px, 0px 129px)
+-webkit-transform		matrix(1, 0, 0, 1, 0, -5)
+-webkit-transform-origin	0px 0px 0px	0px 0px
+-webkit-transition-delay	initial, initial	0s, 0s
+-webkit-transition-delay	initial, initial, initial	0s
+-webkit-transition-duration	0.218s, 0.218s, 0.218s	0s
+-webkit-transition-duration	0.218s	0s
+-webkit-transition-duration	0.5s	0s
+-webkit-transition-duration	0.7s	0s
+-webkit-transition-duration	400ms	0s
+-webkit-transition-property	background	all
+-webkit-transition-property	height	all
+-webkit-transition-property	opacity	all
+-webkit-transition-timing-function	cubic-bezier(0.17, 0.04, 0.03, 0.94)	ease
+-webkit-transition-timing-function	cubic-bezier(0.17, 0.67, 0.44, 1.1)	ease
+-webkit-transition-timing-function	initial, initial	ease, ease
+-webkit-transition-timing-function	initial, initial, initial	ease
+width	0	0px
+width	100%	0px
+width	100%	151px
+width	100%	156px
+width	100%	168px
+width	100%	172px
+width	100%	197px
+width	100%	237px
+width	100%	257px
+width	100%	272px
+width	100%	278px
+width	100%	30px
+width	100%	524px
+width	100%	571px
+width	100%	780px
+width	100%	auto
+width	10ex	0px
+width	174px	auto
+width	179px	112px
+width	179px	140px
+width	179px	168px
+width	179px	20.34375px
+width	179px	auto
+width	1px	4px
+width	230px	214px
+width	230px	auto
+width	244px	254px
+width	244px	auto
+width	265px	auto
+width	28px	0px
+width	33.3%	33.2999992370606%
+width	42.56em	auto
+width	69%	auto
+width	auto	168px
+width	auto	18.046875px
+width	auto	90px
+width	auto !important	257px
+word-spacing	normal	0px
+z-index	10	auto
+z-index	2	0
+z-index	2	auto
+z-index	4000	auto
+z-index	986	auto
+z-index	-9	auto
+z-index	auto	0
