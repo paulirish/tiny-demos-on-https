@@ -3,12 +3,6 @@ align-items	center	start
 align-items	center	stretch
 animation-duration	0.2s	0s
 animation-name	gb__a	none
-background-image	url(/rsrc.php/v2/yB/r/Lg3OgVzw-DK.png)	none
-background-image	url(/rsrc.php/v2/yT/r/GoSczxvXCmt.png)	url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yT/r/GoSczxvXCmt.png)
-background-image	url(/sitewide/images/sprites/search-anim-full.png)	url(http://www.cc.com/sitewide/images/sprites/search-anim-full.png)
-background-image	url(svgs/RM_CoOrdinates_Rex.svg)	url(http://gcg-rexandmariano-dev.azurewebsites.net/Css/svgs/RM_CoOrdinates_Rex.svg)
-background-image	-webkit-image-set(url(//ssl.gstatic.com/s2/oz/images/sprites/ribbon-nav-1x-7ef7896d305353d00070615915dbe725.png) 1x,url(//ssl.gstatic.com/s2/oz/images/sprites/ribbon-nav-2x-681ca7b0944d091886e7f2c34af8dce0.png) 2x)	-webkit-image-set(url(https://ssl.gstatic.com/s2/oz/images/sprites/ribbon-nav-1x-7ef7896d305353d00070615915dbe725.png) 1x, url(https://ssl.gstatic.com/s2/oz/images/sprites/ribbon-nav-2x-681ca7b0944d091886e7f2c34af8dce0.png) 2x)
-background-image	-webkit-linear-gradient(top,#4d90fe,#4787ed)	-webkit-linear-gradient(top, rgb(77, 144, 254), rgb(71, 135, 237))
 background-position	0 -2px	0px -2px
 background-position	0 -503px	0px -503px
 background-position	-242px -62px	0% 0%
