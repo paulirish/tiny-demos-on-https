@@ -52,10 +52,10 @@ float	right	none
 font-family	arial,sans-serif	arial, sans-serif
 font-family	'BrandonGrotesque-Black', Helvetica, Arial, sans-serif	BrandonGrotesque-Black, Helvetica, Arial, sans-serif
 font-family	'BrandonTextBold', Helvetica, Arial, sans-serif	BrandonTextBold, Helvetica, Arial, sans-serif
-font-family	"Helvetica Neue", Helvetica, Arial, sans-serif	'Helvetica Neue', Helvetica, Arial, sans-serif
+font-family	'Helvetica Neue', Helvetica, Arial, sans-serif	'Helvetica Neue', Helvetica, Arial, sans-serif
 font-family	inherit	'Baskerville Old Face', mariano_baskerville
 font-family	'lucida grande',tahoma,verdana,arial,sans-serif	'lucida grande', tahoma, verdana, arial, sans-serif
-font-family	"lucida grande", tahoma, verdana, arial, sans-serif	'lucida grande', tahoma, verdana, arial, sans-serif
+font-family	'lucida grande', tahoma, verdana, arial, sans-serif	'lucida grande', tahoma, verdana, arial, sans-serif
 font-family	Roboto,arial,sans-serif	Roboto, arial, sans-serif
 font-family	'SM4'	SM4
 font-size	0	0px
