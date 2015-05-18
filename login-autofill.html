@@ -1,111 +1,47 @@
-<html class="no-js wf-omnespro-n6-active wf-omnespro-n7-active wf-proximanova-i4-active wf-proximanova-i7-active wf-proximanova-n1-active wf-proximanova-n3-active wf-proximanova-n4-active wf-proximanova-n7-active wf-active"><!--<![endif]--><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}.ng-hide-add-active,.ng-hide-remove{display:block!important;}</style>
-    <meta charset="utf-8">
+<!doctype html>
+
+
+
+<form id="form" action="https://httpbin.org/post" method="POST">
+    <input id="firstname" name="firstname" type="text" placeholder="First Name" />
+    <input id="lastname" name="lastname" type="text" placeholder="Last Name" />
+    <input id="phonenumber" name="phonenumber" type="text" placeholder="Phone Number" /> 
+    <button id="btn-check">Check</button>
+</form>
+<div class="msg">
     
-    
-    
-   
-    <title>Life360 Circles</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="initial-scale=0.7, maximum-scale=0.7, user-scalable=no">
-    <link rel="stylesheet" href="https://www.life360.com/circles/bower_components/jquery-ui/themes/flick/jquery-ui.min.css">
-    <link rel="stylesheet" href="https://www.life360.com/circles/styles/4883e468.main.css">
-
-<style type="text/css">.tk-omnes-pro{font-family:"omnes-pro",sans-serif;}.tk-proxima-nova{font-family:"proxima-nova",sans-serif;}</style><link rel="stylesheet" href="https://use.typekit.net/c/93e8cf/1w;omnes-pro,2,X3C:N:n6,X3F:N:n7;proxima-nova,2,b5x:N:i4,b61:N:i7,b5r:N:n1,b5t:N:n3,b5w:N:n4,b60:N:n7/d?3bb2a6e53c9684ffdc9a98f31d5b2a622aaea354921a3f160ee4fc6c0a4683003ad1ef0894633602bde7162046ded7988519ca2ff5800a679f2cf051689b408d679172935d8f5e2e741483f2505c9a9e69c73a5191bf214133ae4acf3a802d212cb7880fbf534638283f6a01cb7c2bc6b0bfa13ed4e1606ac82961ec747c1e6c066a7f5f399a6beeefbb4dda5fec3bdf177df9645834eb19ba6d0acaa1193a3cfb100211a157741bbad61ed7d9b2968b101f58df8a5620c2cbd8cb83bae07acc073d566ed919fc13a82235e0605caeb25de2c4a14c778b9b29360bb9e70c7ac8a56568f7c15f46522f46f5d9db2acf2bc0c29f49787932b044c3046c81a4adf009">
-<script type="text/javascript" charset="UTF-8" src="https://maps.gstatic.com/maps-api-v3/api/js/20/11c/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.gstatic.com/maps-api-v3/api/js/20/11c/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.gstatic.com/maps-api-v3/api/js/20/11c/stats.js"></script></head>
-<body ng-app="map" id="ng-app" class="ng-scope">
+</div>
 
 
-<!-- ngView:  --><div id="main" ng-class="bodyClass()" ng-view="" class="ng-scope login"><header role="banner" class="ng-scope">
 
-    <div id="inner-header" class="clearfix">
-        <div class="navbar navbar-login">
-            <div class="navbar-inner">
-                <div class="container-fluid nav-container">
-                    <nav role="navigation">
-                        <a id="logo" title="Life360 - THe New Family Circle" href="/">Life360 - The New Family Circle</a>
-                        <div class="nav-collapse pull-right">
-                            <ul id="menu-main" class="nav">
-                                <li class="menu-item"><a href="/tour/">Product Tour</a></li>
-                                <li class="menu-item"><a href="/premium/">Premium</a></li>
-                                <li class="menu-item"><a href="/stories/">Stories</a></li>
-                                <li class="menu-item"><a href="/blog/">Blog</a></li>
-                                <li class="menu-item"><a href="/support/">Support</a></li>
-                                <li class="menu-item"><a href="/download">Download</a></li>
-                            </ul>
-                        </div>
-                    </nav>
+<script>
 
-                </div>
-            </div>
-        </div>
-
-    </div> <!-- end #inner-header -->
-
-</header> <!-- end header -->
-<div class="container ng-scope">
-    <div class="row">
-        <div class="span6 offset3 pagination-centered">
-            <div class="box-login">
-                <div ng-controller="LoginCtrl" class="ng-scope">
-                    <h2 ng-bind="loginMsg" class="ng-binding">Welcome to Life360</h2>
-                    <!-- ngIf: loginError -->
-                    <div class="messagesList" app-messages="" style="top: -10px"></div>
-                    <div ng-hide="login.token" class="">
-                        <form action="" ng-submit="login.connect()" class="form ng-pristine ng-valid ng-valid-required" id="loginForm" action="/paulirish/tiny-demos-on-https/issues">
-                            <div class="controls">
-                                <div class="control-group" ng-show="!phone">
-                                    <input ng-model="login.username" name="username" type="email" data-i18n-attr="LoginEmail|placeholder" autofill="" class="ng-pristine ng-valid ng-valid-email" placeholder="E-mail Address">
-                                    <div class="control-help">
-                                        <a href="" class="pull-right" ng-click="switchField()" data-i18n="LoginSwitchPhone">Or sign in with your mobile number</a>
-                                    </div>
-                                 </div>
-                                <div class="control-group ng-hide" ng-show="phone">
-                                    <div class="clearfix"></div>
-                                    <input ui-mask="+9?999" class="phone-country ng-pristine ng-valid ng-valid-mask" ng-model="login.countryCode" ng-change="updateCountry(country)" autocomplete="off" placeholder="+____">
-
-                                    <div ng-switch="country.callingCode[0]" class="phone-container">
-                                        <!-- ngSwitchWhen: 1 --><input ng-switch-when="1" type="tel" ui-mask="(999) 999-9999" ng-model="login.phone" name="phone" class="phone-number ng-scope ng-pristine ng-valid ng-valid-required" ng-required="login.feature == '0'" placeholder="(___) ___-____">
-                                        <!-- ngSwitchDefault:  -->
-                                        <span class="phone-country-label ng-binding">United States &amp; Canada</span>
-                                    </div>
-                                    <div class="control-help">
-                                        <span ng-show="country.invalidCode" class="error pull-left ng-hide" data-i18n="DialogAccountCountryCodeError">Please enter a valid country code</span>
-                                        <span ng-show="submitted &amp;&amp; addmember.phone.$error.required &amp;&amp; !login.feature" class="error pull-left ng-hide" data-i18n="InviteErrorPhone">Please enter a phone number</span>
-                                        <span ng-show="submitted &amp;&amp; addmember.phone.$error.tel" class="error ng-hide" data-i18n="InviteErrorValidPhone">This is not a valid phone number</span>
-                                        <a href="" class="pull-right" ng-click="switchField()" data-i18n="LoginSwitchEmail">Use your e-mail instead</a>
-                                    </div>
-                                </div>
-                                <div class="control-group">
-                                    <input ng-model="login.password" name="password" type="password" data-i18n-attr="LoginPassword|placeholder" autofill="" class="ng-pristine ng-valid" placeholder="Password">
-                                    <label for="persist" class="pull-left checkbox">
-                                        <input ng-model="login.persist" type="checkbox" id="persist" class="ng-pristine ng-valid"> <span data-i18n="LoginRemember">Remember me</span>
-                                    </label>
-                                    <a href="/forgot-password" class="pull-right" data-i18n="LoginForgot">Forgot password?</a>
-                                </div>
-                                <div class="control-group">
-                                    <button type="submit" class="btn login" ng-class="{disabled:loading}" data-i18n="LoginSignin">Sign in</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div ng-show="login.token" class="ng-hide">
-                        <div class="spinner spinner-dark spinner-large"></div>
-                    </div>
-                    <h4 ng-class="{active:login.token}" data-i18n="LoginSuccess">Signing you in now</h4>
-                </div>
-            </div>
-            <div class="footer-login">
-                <p><a href="/websignup" data-i18n="LoginRegister">Not a Life360 user? Register today!</a></p>
-                <p><img src="assets/img/logo_symbol.png"></p>
-            </div>
-        </div>
-    </div>
-</div></div>
-
-<style>
-.control-group {
-  height: 30px;
+/* bling.js */
+ 
+window.$ = document.querySelectorAll.bind(document)
+ 
+Node.prototype.on = window.on = function (name, fn) {
+  this.addEventListener(name, fn)
 }
-</style>
+ 
+NodeList.prototype.__proto__ = Array.prototype
+ 
+NodeList.prototype.on = NodeList.prototype.addEventListener = function (name, fn) {
+  this.forEach(function (elem, i) {
+    elem.on(name, fn)
+  })
+}
 
-</body></html>
+
+
+
+function log (e){
+    var el = e.target;
+    var msg = $('.msg');
+    msg.textContent +=   el.id + ': ' + e.type + ' fired'  + '\n';
+}
+$('input').on('input', log);
+$('input').on('change', log);
+
+
+</script>
