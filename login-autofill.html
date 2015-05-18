@@ -1,0 +1,50 @@
+
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Life360 Circles</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="initial-scale=0.7, maximum-scale=0.7, user-scalable=no">
+    <link rel="stylesheet" href="https://www.life360.com/circles/bower_components/jquery-ui/themes/flick/jquery-ui.min.css">
+    <link rel="stylesheet" href="https://www.life360.com/circles/styles/4883e468.main.css">
+</head>
+<body ng-app="map" id="ng-app">
+
+<!--[if lt IE 10]>
+<p class="chromeframe">You are using an outdated browser. We support Internet Explorer 10, Firefox, Chrome and Safari. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to use Life360.</p>
+<script src="bower_components/es5-shim/es5-shim.js"></script>
+<script src="bower_components/json3/lib/json3.js"></script>
+<![endif]-->
+
+<div id="main" ng-class="bodyClass()" ng-view=""></div>
+
+<!-- Google Maps API JS -->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script>
+
+<!-- Load Typekit -->
+<script src="//use.typekit.net/iqb3ala.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+
+<script src="https://www.life360.com/circles/scripts/15252b6f.modules.js"></script>
+
+<script src="https://www.life360.com/circles/scripts/68ba557c.scripts.js"></script>
+
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-5439716-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+</body>
+</html>
