@@ -38,7 +38,7 @@ NodeList.prototype.on = NodeList.prototype.addEventListener = function (name, fn
 function log (e){
     var el = e.target;
     var msg = $('.msg');
-    msg.textContent +=   el.id + ': ' + e.type + ' fired'  + '\n';
+    msg[0].textContent +=   el.id + ': ' + e.type + ' fired'  + '\n';
 }
 $('input').on('input', log);
 $('input').on('change', log);
