@@ -14,17 +14,9 @@ html {
   height: 100%;
 }
 
-#rulerelem {
-  /* thx http://projects.verou.me/css3patterns/#half-rombes */
-  background: #e2eaf8;  
-background:
-linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
-linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
-linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
-linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
-#e2eaf8;
-background-size: 15px 30px;
-  
+body {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAMAAAAL34HQAAAA/1BMVEX7+/vy8vL39/f9/f3Q0NDCwsLz8/PDw8Pi4uLFxcXJycnn5+fj4+PIyMjh4eHX19f6+vr4+PjU1NTR0dHo6OjHx8fu7u7r6+vKysr09PTKysv+/f39/f7s6+vLy8vr6+z9/v3LysrLysvs7Ozr7Ov5+vr+/v3r7Oz+/f7Ky8re3t76+frx8fH5+fnLy8rExMTBwcH6+vnz8vLz8/K8vLzW1tbm5ubj4+TKy8v19PT6+fny8/Lw8PC3t7e6u7rg4ODj5OP7/Pu1tbTPz8/s7Ov8/PvZ2dm/v7/T09LU09PCw8PDw8Ls6+zS0tLT09P19fXV1dXt7e38/Pz29vb////c9O+zAAAEGElEQVR42s3aWVMaYRCF4RaUoKBhNIkEDUYxi0ajZt/3PRFl+f+/JR/koit1Lk6KL/aZmy6xvGh56p0ZZrA3jdZwbGvXx+OAWeMz/WVx0LD99ii9Olst0yxeWa3emb7qh8zTf5uFHc4tLFbSq1F/FDFPz/hMe1nrtFlfqoS9UyM6p/+BrfWGtZW2VBBn30bj6gt3lAjiLCyN4XyIo0vxaWmr893k2CmVo6WtBuObrZI5ml0egKO8xDObvzaeOK6Do7rE8dSxCo7yEs+Jo6jEwXS3reTYLVOJxFFXIjrqS3THG+CoLhEd9SUSR2mJ7rhTnhLd8R44iktER32JPu8kx71ylEh6VJeIjvoSfe4mx2f6EtHxljvqS0RHfYnYY1deIs5N71FeIjqqS8S5nhy35SXi3HBHaYno+M4dpSVijzvSEnH6fQB1ibxHfYn++bEjLZH3qC8RHfUlouO2ukR2vaovER31JeL5UVsi71FfIjrqS8Tzo7xEnHfBUVkiOupLxB53pCXy46q+RHTUl4iOHWmJ/D6AvkR01JeI91e3pSXyzx36EtFRXyLel+sIS+THVX2J6KgvEY+rD1e60hL5dY6+RHTUl4jnx7a8RJyb/txKXiI6qkvE+QnOj+IS8fOjvkR01JeI1zn1jqBEflw9eH1UUZeI0472m+6oKRGnLT+p1urdirZE3KoxuV79cFwoS8Strkzm149flovylGhXG5Off3wb9N52hSWiYPp5oV97XvHjqqJEFExbzY2qflxVlIiCaasHaavHfh9AVKIL+nuVfnPbz4+SElEQzo+CEl3Qt/Lr1T1ViSjo9wFO3FFRIgqCY2SJKLiB93PakhJREO8DKEpEQXQMKJEL4vPHkBK5IDpGlMgF0TGmRDyKkucdISVyQXSMKNEF35Ot3DGgRCqIjvcvrkQUvARbke/L5ZfIBflW7vjUHfNK5II/fSs2t2Z0tCzBDEdaYr4g7zGvRC443WpzhuePeSXmC6Lj9PljRokZgtwxq0QuWJ3t+eNeRol5gvz8mF8iF8x35CXmN8gd2zklcsGM58gZJVLBAEe7gAbpcyvuaCGC6MhLDBBER15igCA48hIDBOH7OVklomCYo80gGOBoXPDl/9vK76/yEiME0ZGWGCGIjqzEoAbxOoeXyAWDHS1AcIbrHAsUxO8DkBKJYIAjlhgiiLMHjlgiFwztsTAqKHE0hSA/rppEEM+PWKJAEB2xRIGgz113hBIFgnBfDkokghJHY4KaHk0m6HPjxB29RBf8LNjKHbFEFBQ5eokCQXp+LIw0KHI0jSDOX385GhEUOdrhEgjKHVOJx7CVbG759zpsTr8VXucURrYSORrZSuRoZCtRj9Za/A5bKafNN5vtij1arY2Gwz/n61LMXnLs/gZKQbhY0ilgsQAAAABJRU5ErkJggg==");
+  background-repeat: repeat-y;
 }
 .hrdesc {
   color: #000;
@@ -170,7 +162,7 @@ const rulerElem = window.rulerelem;
 const MAX_SCREENSHOT_HEIGHT = 16 * 1024; // 16384
 
  
-const totalPx = new URLSearchParams(location.search).get('maxPxHeight') || 20000; // 20k is arbitrary and just a tad over max.
+const totalPx = new URLSearchParams(location.search).get('maxPxHeight') || 2000; // 20k is arbitrary and just a tad over max.
 
 let html = '<div id="hr_first"> </div>';
   
