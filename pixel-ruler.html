@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>css pixel ruler demo page</title>
+
+<style id="jsbin-css">
+body,
+html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  /* thx http://projects.verou.me/css3patterns/#half-rombes */
+  background: #e2eaf8;  
+background:
+linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+#e2eaf8;
+background-size: 15px 30px;
+  
+}
+.hrdesc {
+  color: #000;
+  font-size: 50px;
+}
+
+.widthruler {
+  background: Khaki;
+
+  float: right;
+  width: 1460px;
+  height: 70px;
+}
+.heightruler {
+  direction: ltr;
+  width: 70px;
+  height: 100%;
+  margin-top: -10px;
+}
+
+.wr {
+  float: left;
+  height: 70px;
+  width: 10px;
+}
+.wrb {
+  float: left;
+  width: 10px;
+  height: 30px;
+  border-left: 1px black solid;
+  margin-top: 40px;
+  vertical-align: top;
+}
+.wrm {
+  float: left;
+  width: 10px;
+  height: 20px;
+  border-left: 1px black solid;
+  margin-top: 50px;
+}
+.wrs {
+  float: left;
+  width: 10px;
+  height: 10px;
+  border-left: 1px black solid;
+  margin-top: 60px;
+}
+
+#hr_first {
+  float: right;
+  height: 10px;
+  width: 70px;
+  margin-bottom: -1px;
+}
+
+.hr {
+  float: left;
+  height: 10px;
+  width: 70px;
+}
+.hrb {
+  float: left;
+
+  width: 30px;
+  height: 10px;
+  border-top: 1px black solid;
+  margin-right: 40px;
+  vertical-align: top;
+}
+.hrm {
+  float: left;
+  width: 20px;
+  height: 10px;
+  border-top: 1px black solid;
+
+  margin-right: 50px;
+}
+.hrs {
+  float: left;
+  width: 10px;
+  height: 10px;
+  border-top: 1px black solid;
+
+  margin-right: 60px;
+}
+#hr_last {
+  float: right;
+  height: 3px;
+  width: 70px;
+}
+
+.hrdesc {
+  margin-left: 2.5em;
+
+  margin-top: -0.6em;
+  position: absolute;
+}
+
+.heightruler,
+.widthruler {
+  font-family: arial;
+}
+.wrdesc.d1 {
+  margin-left: -0.25em;
+}
+.wrdesc.d2 {
+  margin-left: -0.5em;
+}
+.wrdesc.d3 {
+  margin-left: -0.75em;
+}
+.wrdesc.d4 {
+  margin-left: -1em;
+}
+
+.hrdesc,
+.wrdesc {
+  font-size: 20px;
+}
+
+#hr_setting {
+}
+.ruler_setting {
+  padding-left: 70px;
+}
+
+</style>
+</head>
+<body>
+
+  
+
+<div class='heightruler' id=rulerelem>
+
+  
+</div>
+
+  
+<script>
+const rulerElem = window.rulerelem;
+
+// https://bugs.chromium.org/p/chromium/issues/detail?id=770769
+const MAX_SCREENSHOT_HEIGHT = 16 * 1024; // 16384
+
+ 
+const totalPx = new URLSearchParams(location.search).get('maxPxHeight') || 20000; // 20k is arbitrary and just a tad over max.
+
+let html = '<div id="hr_first"> </div>';
+  
+for (let i = 0; i <= totalPx + 10; i += 10) {
+   
+  if (i % 100 === 0) {
+    html += `<div class='hr'>
+            <div class='hrb'><span class='hrdesc'>${i}</span></div>
+        </div>`;
+  } else { 
+    
+
+  html += `<div class='hr'>
+            <div class='hrs'></div>
+        </div>`;
+      }
+}
+
+
+rulerElem.innerHTML = html;
+</script>
+</body>
+</html>
