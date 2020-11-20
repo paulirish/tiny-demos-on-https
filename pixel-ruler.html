@@ -147,34 +147,46 @@ body {
 </head>
 <body>
 
-  
+
 
 <div class='heightruler' id=rulerelem>
 
-  
+
 </div>
 
-  
+
 <script>
 const rulerElem = window.rulerelem;
 
 // https://bugs.chromium.org/p/chromium/issues/detail?id=770769
 const MAX_SCREENSHOT_HEIGHT = 16 * 1024; // 16384
 
- 
+
 const param = new URLSearchParams(location.search).get('maxPxHeight');
 const totalPx = param ? Number(param) : 20000; // 20k is arbitrary and just a tad over max.
 
+const colorparam = new URLSearchParams(location.search).get('color');
+if (colorparam) {
+  document.querySelector('style').innerHTML += `
+    .hrdesc {
+        color: #${colorparam};
+    }
+    body {
+      background: #fff;
+    }
+  `;
+}
+
 let html = '<div id="hr_first"> </div>';
-  
+
 for (let i = 0; i <= (totalPx + 10); i += 10) {
-   
+
   if (i % 100 === 0) {
     html += `<div class='hr'>
             <div class='hrb'><span class='hrdesc'>${i}</span></div>
         </div>`;
-  } else { 
-    
+  } else {
+
 
   html += `<div class='hr'>
             <div class='hrs'></div>
